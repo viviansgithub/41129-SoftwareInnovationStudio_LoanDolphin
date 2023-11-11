@@ -1,0 +1,54 @@
+.background-image {
+    background-image: url('home-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.main-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.heading {
+    padding: 5px;
+    color: #42A7D5;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.services p {
+    padding: 10px;
+    color: #656D6D;
+    font-size: 35px;
+}
+
+.services img {
+    height: 100px;
+    width: 100px;
+    transition: transform 0.3s, filter 0.3s, box-shadow 0.3s;
+}
+
+.services img:hover {
+    transform: translateY(-5px);
+    filter: drop-shadow(0 0 5px #42A7D5);
+    box-shadow: none;
+}
+
+.button {
+    padding: 30px;
+    margin-top: 20px;
+}
