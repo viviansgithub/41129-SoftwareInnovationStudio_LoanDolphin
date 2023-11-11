@@ -1,76 +1,30 @@
-# Software Studio
+# 41129 : Software Innovation Studio (Loan Dolphin - Loan Eligibility Calculator):
 
 ## Running Instructions
 
-Enter `Ctr + C` to safely exit front or back end services.
-
-### Front End
+### To git pull:
 
 ```bash
-cd front-end
-yarn dev
+git pull
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### To git commit:
 
-### Back End
-
-Can be run in 2 ways after navigating to `back-end`:
-
-``` bash
-cd back-end
+```bash
+git commit
 ```
 
-#### Standard
+#### To launch website/open local host on browser:
 
 ``` bash
-python3 service/src/app.py
+cd app
+npm start
 ```
 
-#### Docker Compose
+Click on link after  ➜  Local:  with your browser to see the result.
+
+#### To install confetti explosion effect from React:
 
 ``` bash
-cd service/dev &&
-docker-compose up --build
-```
-
-## How to PR
-
-``` bash
-git branch example
-git checkout example
-
-git checkout -b example
-```
-
-``` bash
-git add .
-git commit -m "..."
-git push
-```
-
-## How to set up a virtual environment
-
-navigate
-
-``` bash
-cd back-end
-```
-
-create
-
-``` bash
-python3 -m venv env
-```
-
-activate
-
-``` bash
-source env/bin/activate
-```
-
-install dependencies
-
-``` bash
-poetry install
+npm install react-confetti-explosion
 ```
